@@ -15,6 +15,7 @@
 		27C5E8702351D3D800E32B1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C5E86E2351D3D800E32B1A /* LaunchScreen.storyboard */; };
 		27C5E87B2351D3D800E32B1A /* _2EventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C5E87A2351D3D800E32B1A /* _2EventsTests.swift */; };
 		27C5E8862351D3D800E32B1A /* _2EventsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C5E8852351D3D800E32B1A /* _2EventsUITests.swift */; };
+		405CC789235224B9005892D9 /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405CC788235224B9005892D9 /* EventData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		27C5E8812351D3D800E32B1A /* 42EventsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 42EventsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C5E8852351D3D800E32B1A /* _2EventsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _2EventsUITests.swift; sourceTree = "<group>"; };
 		27C5E8872351D3D800E32B1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		405CC788235224B9005892D9 /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				27C5E8632351D3D400E32B1A /* AppDelegate.swift */,
+				405CC788235224B9005892D9 /* EventData.swift */,
 				27C5E8652351D3D400E32B1A /* SceneDelegate.swift */,
 				27C5E8672351D3D400E32B1A /* ViewController.swift */,
 				27C5E8692351D3D400E32B1A /* Main.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				27C5E8682351D3D400E32B1A /* ViewController.swift in Sources */,
 				27C5E8642351D3D400E32B1A /* AppDelegate.swift in Sources */,
+				405CC789235224B9005892D9 /* EventData.swift in Sources */,
 				27C5E8662351D3D400E32B1A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
